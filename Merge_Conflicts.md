@@ -1,1 +1,3 @@
-# Arbeiten mit Merge Konflikten
+
+# Merge Conflicts beheben
+
