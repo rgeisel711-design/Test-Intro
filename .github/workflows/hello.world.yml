@@ -1,0 +1,19 @@
+name: for every push
+
+on: push
+
+jobs:
+  test:
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo "hello from ${{ github.job }}"
+        
+  build:
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo "hello from ${{ github.job }}"  
+        
+  deploy:
+      runs-on: ubuntu-latest
+      steps:
+        - run: echo "hello from ${{ github.job }}"        
